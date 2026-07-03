@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    font-family: arial;
+}
+
+.main-box {
+
+    background-image: url(/Assets/background.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.header {
+
+    width: 100%;
+    height: 5rem;
+    background-color: greenyellow;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 7rem;
+    margin-left: 4rem;
+}
+
+.navItems select {
+
+    border: 1px solid white;
+    width: 7.8rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.navItems option {
+    border: none;
+    color: black;
+}
+
+.signIn {
+
+    background-color: red;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-right: 10rem;
+}
+
+.navItems a {
+    text-decoration: none;
+}
+
+.mainTop {
+    padding: 0 2rem 0rem 2rem;
+    height: auto;
+}
+
+.section1 {
+    height: auto;
+}
+.heading1{
+    margin-top: 10rem;
+    font-size: 45px;
+    color: white;
+}
+.para{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 2rem;
+}
+.para2{
+    font-size: 16px;
+    color: white;
+}
+.sec1-bottom{
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.sec1-bottom input{
+    width: 20rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid grey;
+}
+.sec1-bottom button{
+
+    background-color: red;
+    width: 13rem;
+    height: 3.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+}
+.sec1-bottom button:hover{
+    opacity: 0.8;
+}
+.main-middle{
+    
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.heading2{
+    margin-top: 3rem;
+    color: white;
+    position: absolute;
+    left: 12%;
+    font-size: 24px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 5rem;
+
+}
+.card{
+    padding: 2rem 1rem 0 1rem;
+    width: 14rem;
+    height: 16rem;
+    background-color: rgb(58, 62, 83);
+    border-radius: 1rem;
+    overflow: auto;
+}
+.card p{
+    margin-top: 2rem;
+    color: white;
+    font-size: 16px;
+}
+.heading3{
+    color: white;
+    font-size: 20px;
+}
+
+.main-bottom{
+    margin: 5rem;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head2{
+    color: white;
+    position: relative;
+    left: 8%;
+}
+.question{
+    margin: 1rem 6rem 0rem 6rem;
+    width: 90%;
+    height: 5.25rem;
+    background-color: #2D2D2D;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ques-head{
+    color: white;
+    font-size: 24px;
+    margin-left: 2rem;
+}
+.ques-card i{
+    color: white;
+    margin-right: 2rem;
+    font-size: 36px;
+    cursor: pointer;
+}
+.footer{
+    padding-top: 2rem;
+    margin: 4rem 7.5rem 4rem 10rem;
+    height: auto;
+    background-color: black;
+}
+.query{
+    color: grey;
+}
+.footer-contents{
+    margin-top: 1rem;
+    height: auto;
+}
+.footer-contents ul{
+   padding-left: 0;
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-contents ul li a{
+    color: grey;
+}
+.footer-contents ul li{
+    line-height: 2rem;
+}
+
+.footer select{
+    margin-top: 1.5rem;
+    border: 1px solid white;
+    width: 7.8rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.footer option {
+    border: none;
+    color: black;
+}
+.foot-last{
+    color: grey;
+    font-weight: 400;
+    font-size: 14px;
+}
+.foot-end{
+    color: grey;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.7;
+}
+@media (max-width: 1280px) {
+
+    .signIn {
+        margin-right: 5rem;
+    }
+    .logo img {
+        margin-left: 3rem;
+    }
+    .sec1-bottom button{
+        width: 10rem;
+        font-size: 18px;
+    }
+    .card{
+        width: 20rem;
+        height: 15rem;
+    }
+    .card-container{
+        padding: 4rem;
+    }
+    .main-bottom{
+        margin: 2rem;
+    }
+    .head2{
+        left: 4%;
+    }
+    .question{
+        margin: 1rem 3rem 0rem 3rem;
+    }
+    .footer{
+        margin: 4rem 5rem 4rem 5rem;
+    }
+    .footer-contents ul{
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media (max-width: 960px) {
+
+    .signIn {
+        margin-right: 2rem;
+    }
+     .logo img {
+        margin-left: 1rem;
+    }
+    .heading1{
+        font-size: 32px;
+    }
+    .heading2{
+        font-size: 16px;
+        left: 8%;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        height: 8rem;
+    }
+    .question{
+        margin-left: 2rem;
+        margin-right: 0rem;
+    }
+    .ques-head{
+        font-size: 18px;
+    }
+    .ques-card i{
+        font-size: 20px;
+    }
+    .footer{
+        margin: 4rem 5rem 4rem 4rem;
+    }
+    .footer-contents ul{
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media (max-width: 600px){
+    
+    .logo img{
+        height: 4rem;
+    }
+    .heading2{
+        font-size: 16px;
+        left: 12%;
+    }
+    .footer-contents ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .navItems select {
+        width: 4.5rem;
+    }
+
+}
