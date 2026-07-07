@@ -44,13 +44,16 @@
 }
 
 .signIn {
-
     background-color: red;
     padding: 0.4rem 1rem 0.4rem 1rem;
     color: white;
     font-weight: bold;
     border-radius: 3px;
     margin-right: 10rem;
+    opacity: 1;
+}
+.signIn:hover{
+    opacity: 0.7;
 }
 
 .navItems a {
@@ -111,8 +114,43 @@
 .sec1-bottom button:hover{
     opacity: 0.8;
 }
+.main-top2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.trend-head{
+    padding: 1.5rem 0rem 3rem 5rem;
+}
+.trend-head h2{
+    color: white;
+}
+.movie-list{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0rem 5rem 0.5rem 5rem;
+}
+.movie-card{
+    padding: 0;
+    width: 11.25rem;
+    height: auto;
+    background-color: rgb(58, 62, 83);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie-card img{
+    width: 100%;
+    border-radius: 7px;
+}
 .main-middle{
-    
+
     width: 100%;
     height: auto;
     background-color: black;
@@ -172,6 +210,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+}
+.question:hover{
+    background-color: #3c3c3c;
 }
 .ques-head{
     color: white;
@@ -249,6 +291,12 @@
         width: 10rem;
         font-size: 18px;
     }
+    .movie-list{
+        padding: 1rem 5rem 3rem 5rem;
+    }
+    .movie-card{
+        width: 8.75rem;
+    }
     .card{
         width: 20rem;
         height: 15rem;
@@ -271,7 +319,6 @@
     .footer-contents ul{
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: repeat(3, 1fr);
-
     }
 }
 
@@ -301,7 +348,8 @@
         margin-left: 2rem;
         margin-right: 0rem;
     }
-    .ques-head{
+    .ques-head,
+    .head2{
         font-size: 18px;
     }
     .ques-card i{
@@ -332,6 +380,9 @@
     }
     .navItems select {
         width: 4.5rem;
+    }
+    .movie-list{
+        padding: 1rem 1rem 1rem 1rem;
     }
 
 }
