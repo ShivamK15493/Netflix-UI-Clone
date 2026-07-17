@@ -42,7 +42,6 @@
     border: none;
     color: black;
 }
-
 .signIn {
     background-color: red;
     padding: 0.4rem 1rem 0.4rem 1rem;
@@ -156,7 +155,7 @@
     background-color: black;
 }
 .heading2{
-    margin-top: 3rem;
+    margin-top: 1rem;
     color: white;
     position: absolute;
     left: 12%;
@@ -172,8 +171,8 @@
 }
 .card{
     padding: 2rem 1rem 0 1rem;
-    width: 14rem;
-    height: 16rem;
+    width: 13rem;
+    height: 18rem;
     background-color: rgb(58, 62, 83);
     border-radius: 1rem;
     overflow: auto;
@@ -185,7 +184,7 @@
 }
 .heading3{
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .main-bottom{
@@ -211,6 +210,19 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+}
+.downData p{
+    color: white;
+    margin: 1.5rem 0rem 0rem 1.5rem;
+}
+.downData{
+    margin: 0.2rem 6rem 0rem 6rem;
+    padding-bottom: 1.5rem;
+    width: 90%;
+    background-color: #2D2D2D;
+    font-size: 24px;
+    height: auto;
+    display: none;
 }
 .question:hover{
     background-color: #3c3c3c;
@@ -298,7 +310,7 @@
         width: 8.75rem;
     }
     .card{
-        width: 20rem;
+        width: 22rem;
         height: 15rem;
     }
     .card-container{
@@ -312,6 +324,9 @@
     }
     .question{
         margin: 1rem 3rem 0rem 3rem;
+    }
+    .downData{
+        margin: 0.2rem 3rem 0rem 3rem;
     }
     .footer{
         margin: 4rem 5rem 4rem 5rem;
@@ -339,14 +354,26 @@
     }
     .card-container{
         flex-direction: column;
+        padding: 3rem 3.5rem 2rem 1.5rem;
     }
     .card{
         width: 100%;
         height: 8rem;
     }
+    .main-bottom{
+        margin: 0rem 1rem 0rem 0rem;
+    }
+    .downData p{
+        margin: 1rem 0rem 0rem 1.5rem;
+    }
     .question{
         margin-left: 2rem;
         margin-right: 0rem;
+    }
+    .downData{
+        margin-left: 2rem;
+        margin-right: 0rem;
+        font-size: 18px;
     }
     .ques-head,
     .head2{
